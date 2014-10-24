@@ -17,13 +17,11 @@
  */
 package com.watabou.pixeldungeon.ui;
 
-import com.watabou.noosa.Game;
+import com.opd.noosa.OPDGame;
 import com.watabou.noosa.Image;
 import com.watabou.noosa.audio.Sample;
 import com.watabou.noosa.ui.Button;
 import com.watabou.pixeldungeon.Assets;
-import com.watabou.pixeldungeon.PixelDungeon;
-import com.watabou.pixeldungeon.scenes.TitleScene;
 
 public class ExitButton extends Button {
 	
@@ -65,12 +63,6 @@ public class ExitButton extends Button {
 	
 	@Override
 	protected void onClick() {
-		if (Game.scene() instanceof com.opd.openpixeldungeon.scenes.TitleScene) {
-			Game.instance.finish();
-		} else if (Game.scene() instanceof TitleScene) { 
-			Game.switchScene( com.opd.openpixeldungeon.scenes.TitleScene.class );
-		} else {
-			PixelDungeon.switchNoFade( TitleScene.class );
-		}
+		OPDGame.goBack();
 	}
 }

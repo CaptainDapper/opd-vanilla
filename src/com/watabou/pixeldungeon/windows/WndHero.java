@@ -19,6 +19,7 @@ package com.watabou.pixeldungeon.windows;
 
 import java.util.Locale;
 
+import com.opd.noosa.OPDScene;
 import com.watabou.gltextures.SmartTexture;
 import com.watabou.gltextures.TextureCache;
 import com.watabou.noosa.BitmapText;
@@ -101,6 +102,8 @@ public class WndHero extends WndTabbed {
 		private float pos;
 		
 		public StatsTab() {
+
+			OPDScene.displayVersion(this, WIDTH, 0);
 			
 			Hero hero = Dungeon.hero; 
 

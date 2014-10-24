@@ -17,7 +17,6 @@
  */
 package com.watabou.pixeldungeon.scenes;
 
-import com.opd.noosa.OPDGame;
 import com.watabou.noosa.BitmapText;
 import com.watabou.noosa.Camera;
 import com.watabou.noosa.Image;
@@ -103,13 +102,6 @@ public class TitleScene extends PixelScene {
 		btnHighscores.setPos( w / 2, btnPlay.top() );
 		add( btnHighscores );
 		
-		BitmapText version = new BitmapText( "v " + OPDGame.subVersion, font1x );
-		version.measure();
-		version.hardlight( 0x888888 );
-		version.x = w - version.width();
-		version.y = h - version.height();
-		add( version );
-		
 		PrefsButton btnPrefs = new PrefsButton();
 		btnPrefs.setPos( 0, 0 );
 		add( btnPrefs );
@@ -117,6 +109,8 @@ public class TitleScene extends PixelScene {
 		ExitButton btnExit = new ExitButton();
 		btnExit.setPos( w - btnExit.width(), 0 );
 		add( btnExit );
+		
+		displayVersion(w, h);
 		
 		fadeIn();
 	}

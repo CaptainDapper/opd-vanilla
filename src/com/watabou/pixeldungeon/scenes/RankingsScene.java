@@ -114,6 +114,8 @@ public class RankingsScene extends PixelScene {
 		ExitButton btnExit = new ExitButton();
 		btnExit.setPos( Camera.main.width - btnExit.width(), 0 );
 		add( btnExit );
+
+		displayVersion(w,h);
 		
 		fadeIn();
 	}
