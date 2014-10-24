@@ -174,7 +174,7 @@ public class Badges {
 		loadGlobal();
 	}
 	
-	private static final String BADGES_FILE	= "badges.dat";
+	private static final String BADGES_FILE	= "watabou-badges.dat";
 	private static final String BADGES		= "badges";
 	
 	private static HashSet<Badge> restore( Bundle bundle ) {

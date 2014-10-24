@@ -17,9 +17,9 @@
  */
 package com.watabou.pixeldungeon.scenes;
 
+import com.opd.noosa.OPDGame;
 import com.watabou.noosa.BitmapText;
 import com.watabou.noosa.Camera;
-import com.watabou.noosa.Game;
 import com.watabou.noosa.Image;
 import com.watabou.noosa.audio.Music;
 import com.watabou.noosa.audio.Sample;
@@ -103,7 +103,7 @@ public class TitleScene extends PixelScene {
 		btnHighscores.setPos( w / 2, btnPlay.top() );
 		add( btnHighscores );
 		
-		BitmapText version = new BitmapText( "v " + Game.version, font1x );
+		BitmapText version = new BitmapText( "v " + OPDGame.subVersion, font1x );
 		version.measure();
 		version.hardlight( 0x888888 );
 		version.x = w - version.width();
