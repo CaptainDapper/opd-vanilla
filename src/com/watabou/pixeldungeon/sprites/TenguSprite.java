@@ -17,11 +17,11 @@
  */
 package com.watabou.pixeldungeon.sprites;
 
+import com.watabou.pixeldungeon.scenes.GameScene;
 import com.watabou.noosa.TextureFilm;
 import com.watabou.pixeldungeon.Assets;
 import com.watabou.pixeldungeon.items.weapon.missiles.Shuriken;
 import com.watabou.pixeldungeon.levels.Level;
-import com.watabou.pixeldungeon.scenes.GameScene;
 import com.watabou.utils.Callback;
 
 public class TenguSprite extends MobSprite {

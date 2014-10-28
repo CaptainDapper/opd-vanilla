@@ -17,8 +17,8 @@
  */
 package com.watabou.pixeldungeon.items.weapon.enchantments;
 
-import com.watabou.pixeldungeon.Badges;
 import com.watabou.pixeldungeon.actors.Char;
+import com.watabou.pixeldungeon.Badges;
 import com.watabou.pixeldungeon.actors.hero.Hero;
 import com.watabou.pixeldungeon.effects.particles.ShadowParticle;
 import com.watabou.pixeldungeon.items.weapon.Weapon;

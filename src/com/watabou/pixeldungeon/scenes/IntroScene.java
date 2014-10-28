@@ -17,6 +17,8 @@
  */
 package com.watabou.pixeldungeon.scenes;
 
+import com.watabou.pixeldungeon.scenes.InterlevelScene;
+import com.watabou.pixeldungeon.scenes.PixelScene;
 import com.watabou.noosa.Game;
 import com.watabou.pixeldungeon.windows.WndStory;
 

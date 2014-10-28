@@ -17,8 +17,8 @@
  */
 package com.watabou.pixeldungeon.sprites;
 
-import com.watabou.noosa.particles.Emitter;
 import com.watabou.pixeldungeon.actors.Char;
+import com.watabou.noosa.particles.Emitter;
 import com.watabou.pixeldungeon.effects.Speck;
 
 public class FetidRatSprite extends RatSprite {

@@ -17,9 +17,9 @@
  */
 package com.watabou.pixeldungeon.sprites;
 
+import com.watabou.pixeldungeon.actors.Char;
 import com.watabou.noosa.TextureFilm;
 import com.watabou.pixeldungeon.Assets;
-import com.watabou.pixeldungeon.actors.Char;
 import com.watabou.pixeldungeon.actors.mobs.npcs.Imp;
 import com.watabou.pixeldungeon.effects.Speck;
 

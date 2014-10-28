@@ -17,10 +17,10 @@
  */
 package com.watabou.pixeldungeon.ui;
 
+import com.watabou.pixeldungeon.actors.Char;
 import com.watabou.gltextures.TextureCache;
 import com.watabou.noosa.Image;
 import com.watabou.noosa.ui.Component;
-import com.watabou.pixeldungeon.actors.Char;
 import com.watabou.pixeldungeon.sprites.CharSprite;
 
 public class HealthIndicator extends Component {

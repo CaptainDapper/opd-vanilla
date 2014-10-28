@@ -19,6 +19,8 @@ package com.watabou.pixeldungeon.scenes;
 
 import java.nio.FloatBuffer;
 
+import com.watabou.pixeldungeon.scenes.PixelScene;
+import com.watabou.pixeldungeon.scenes.TitleScene;
 import com.watabou.gltextures.Gradient;
 import com.watabou.gltextures.SmartTexture;
 import com.watabou.glwrap.Matrix;

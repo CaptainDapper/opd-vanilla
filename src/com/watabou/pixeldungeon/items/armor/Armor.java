@@ -19,9 +19,9 @@ package com.watabou.pixeldungeon.items.armor;
 
 import java.util.ArrayList;
 
+import com.watabou.pixeldungeon.actors.Char;
 import com.watabou.pixeldungeon.Badges;
 import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.actors.Char;
 import com.watabou.pixeldungeon.actors.hero.Hero;
 import com.watabou.pixeldungeon.items.EquipableItem;
 import com.watabou.pixeldungeon.items.Item;

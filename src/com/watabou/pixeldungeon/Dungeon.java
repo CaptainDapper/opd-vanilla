@@ -25,9 +25,11 @@ import java.util.Date;
 import java.util.HashSet;
 
 import com.opd.noosa.OPDGame;
-import com.watabou.noosa.Game;
 import com.watabou.pixeldungeon.actors.Actor;
 import com.watabou.pixeldungeon.actors.Char;
+import com.watabou.pixeldungeon.scenes.GameScene;
+import com.watabou.pixeldungeon.scenes.StartScene;
+import com.watabou.noosa.Game;
 import com.watabou.pixeldungeon.actors.buffs.Amok;
 import com.watabou.pixeldungeon.actors.buffs.Light;
 import com.watabou.pixeldungeon.actors.hero.Hero;
@@ -56,8 +58,6 @@ import com.watabou.pixeldungeon.levels.PrisonLevel;
 import com.watabou.pixeldungeon.levels.Room;
 import com.watabou.pixeldungeon.levels.SewerBossLevel;
 import com.watabou.pixeldungeon.levels.SewerLevel;
-import com.watabou.pixeldungeon.scenes.GameScene;
-import com.watabou.pixeldungeon.scenes.StartScene;
 import com.watabou.pixeldungeon.utils.BArray;
 import com.watabou.pixeldungeon.utils.Utils;
 import com.watabou.pixeldungeon.windows.WndResurrect;
@@ -351,17 +351,17 @@ public class Dungeon {
 		return Random.Int( 12 * (1 + arcaneStyli) ) < depth;
 	}
 	
-	private static final String RG_GAME_FILE	= "watabou-game.dat";
-	private static final String RG_DEPTH_FILE	= "watabou-depth%d.dat";
+	private static final String RG_GAME_FILE	= "vanilla-game.dat";
+	private static final String RG_DEPTH_FILE	= "vanilla-depth%d.dat";
 	
-	private static final String WR_GAME_FILE	= "watabou-warrior.dat";
-	private static final String WR_DEPTH_FILE	= "watabou-warrior%d.dat";
+	private static final String WR_GAME_FILE	= "vanilla-warrior.dat";
+	private static final String WR_DEPTH_FILE	= "vanilla-warrior%d.dat";
 	
-	private static final String MG_GAME_FILE	= "watabou-mage.dat";
-	private static final String MG_DEPTH_FILE	= "watabou-mage%d.dat";
+	private static final String MG_GAME_FILE	= "vanilla-mage.dat";
+	private static final String MG_DEPTH_FILE	= "vanilla-mage%d.dat";
 	
-	private static final String RN_GAME_FILE	= "watabou-ranger.dat";
-	private static final String RN_DEPTH_FILE	= "watabou-ranger%d.dat";
+	private static final String RN_GAME_FILE	= "vanilla-ranger.dat";
+	private static final String RN_DEPTH_FILE	= "vanilla-ranger%d.dat";
 	
 	private static final String VERSION		= "version";
 	private static final String CHALLENGES	= "challenges";

@@ -17,10 +17,10 @@
  */
 package com.watabou.pixeldungeon.effects;
 
+import com.watabou.pixeldungeon.scenes.GameScene;
 import com.watabou.noosa.particles.Emitter;
 import com.watabou.noosa.particles.PixelParticle;
 import com.watabou.pixeldungeon.DungeonTilemap;
-import com.watabou.pixeldungeon.scenes.GameScene;
 import com.watabou.utils.PointF;
 import com.watabou.utils.Random;
 

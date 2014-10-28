@@ -20,6 +20,7 @@ package com.watabou.pixeldungeon.sprites;
 import android.graphics.Bitmap;
 import android.util.Log;
 
+import com.watabou.pixeldungeon.scenes.GameScene;
 import com.watabou.gltextures.TextureCache;
 import com.watabou.noosa.Game;
 import com.watabou.noosa.MovieClip;
@@ -34,7 +35,6 @@ import com.watabou.pixeldungeon.items.Gold;
 import com.watabou.pixeldungeon.items.Heap;
 import com.watabou.pixeldungeon.items.Item;
 import com.watabou.pixeldungeon.levels.Level;
-import com.watabou.pixeldungeon.scenes.GameScene;
 import com.watabou.utils.PointF;
 import com.watabou.utils.Random;
 

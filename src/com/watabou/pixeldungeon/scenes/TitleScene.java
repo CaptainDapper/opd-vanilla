@@ -17,6 +17,11 @@
  */
 package com.watabou.pixeldungeon.scenes;
 
+import com.watabou.pixeldungeon.scenes.AboutScene;
+import com.watabou.pixeldungeon.scenes.BadgesScene;
+import com.watabou.pixeldungeon.scenes.PixelScene;
+import com.watabou.pixeldungeon.scenes.RankingsScene;
+import com.watabou.pixeldungeon.scenes.StartScene;
 import com.watabou.noosa.BitmapText;
 import com.watabou.noosa.Camera;
 import com.watabou.noosa.Image;

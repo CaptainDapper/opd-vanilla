@@ -22,9 +22,9 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
 
+import com.watabou.pixeldungeon.actors.Actor;
 import com.watabou.pixeldungeon.Bones;
 import com.watabou.pixeldungeon.Dungeon;
-import com.watabou.pixeldungeon.actors.Actor;
 import com.watabou.pixeldungeon.actors.mobs.Bestiary;
 import com.watabou.pixeldungeon.actors.mobs.Mob;
 import com.watabou.pixeldungeon.items.Generator;

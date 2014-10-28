@@ -17,12 +17,12 @@
  */
 package com.watabou.pixeldungeon.effects;
 
+import com.watabou.pixeldungeon.actors.Char;
 import com.watabou.noosa.Game;
 import com.watabou.noosa.Group;
 import com.watabou.noosa.Image;
 import com.watabou.pixeldungeon.Dungeon;
 import com.watabou.pixeldungeon.DungeonTilemap;
-import com.watabou.pixeldungeon.actors.Char;
 import com.watabou.pixeldungeon.levels.Level;
 
 public class Wound extends Image {

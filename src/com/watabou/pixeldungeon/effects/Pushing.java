@@ -17,10 +17,10 @@
  */
 package com.watabou.pixeldungeon.effects;
 
-import com.watabou.noosa.Game;
-import com.watabou.noosa.Visual;
 import com.watabou.pixeldungeon.actors.Actor;
 import com.watabou.pixeldungeon.actors.Char;
+import com.watabou.noosa.Game;
+import com.watabou.noosa.Visual;
 import com.watabou.pixeldungeon.sprites.CharSprite;
 import com.watabou.utils.PointF;
 

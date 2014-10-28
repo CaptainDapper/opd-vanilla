@@ -17,8 +17,8 @@
  */
 package com.watabou.pixeldungeon.windows;
 
-import com.watabou.noosa.BitmapTextMultiline;
 import com.watabou.pixeldungeon.scenes.PixelScene;
+import com.watabou.noosa.BitmapTextMultiline;
 import com.watabou.pixeldungeon.ui.Window;
 
 public class WndMessage extends Window {

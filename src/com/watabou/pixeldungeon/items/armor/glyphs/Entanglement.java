@@ -17,8 +17,8 @@
  */
 package com.watabou.pixeldungeon.items.armor.glyphs;
 
-import com.watabou.noosa.Camera;
 import com.watabou.pixeldungeon.actors.Char;
+import com.watabou.noosa.Camera;
 import com.watabou.pixeldungeon.actors.buffs.Buff;
 import com.watabou.pixeldungeon.actors.buffs.Roots;
 import com.watabou.pixeldungeon.effects.CellEmitter;

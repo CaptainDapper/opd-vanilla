@@ -17,9 +17,9 @@
  */
 package com.watabou.pixeldungeon.sprites;
 
+import com.watabou.pixeldungeon.scenes.GameScene;
 import com.watabou.noosa.TextureFilm;
 import com.watabou.pixeldungeon.Assets;
-import com.watabou.pixeldungeon.scenes.GameScene;
 
 public class PiranhaSprite extends MobSprite {
 	

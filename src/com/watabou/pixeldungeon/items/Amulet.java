@@ -20,12 +20,12 @@ package com.watabou.pixeldungeon.items;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import com.watabou.pixeldungeon.scenes.AmuletScene;
 import com.watabou.noosa.Game;
 import com.watabou.pixeldungeon.Badges;
 import com.watabou.pixeldungeon.Dungeon;
 import com.watabou.pixeldungeon.Statistics;
 import com.watabou.pixeldungeon.actors.hero.Hero;
-import com.watabou.pixeldungeon.scenes.AmuletScene;
 import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 
 public class Amulet extends Item {

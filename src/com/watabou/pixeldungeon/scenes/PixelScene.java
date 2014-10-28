@@ -18,6 +18,7 @@
 package com.watabou.pixeldungeon.scenes;
 
 import com.opd.noosa.OPDScene;
+import com.watabou.pixeldungeon.scenes.GameScene;
 import com.watabou.noosa.audio.Sample;
 import com.watabou.noosa.Game;
 import com.watabou.pixeldungeon.Assets;

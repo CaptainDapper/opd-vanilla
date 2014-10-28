@@ -17,8 +17,8 @@
  */
 package com.watabou.pixeldungeon.actors.mobs;
 
-import com.watabou.pixeldungeon.Badges;
 import com.watabou.pixeldungeon.actors.Char;
+import com.watabou.pixeldungeon.Badges;
 import com.watabou.pixeldungeon.sprites.AcidicSprite;
 import com.watabou.utils.Random;
 

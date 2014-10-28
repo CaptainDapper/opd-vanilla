@@ -17,8 +17,8 @@
  */
 package com.watabou.pixeldungeon.actors.mobs.npcs;
 
-import com.watabou.pixeldungeon.Dungeon;
 import com.watabou.pixeldungeon.actors.Char;
+import com.watabou.pixeldungeon.Dungeon;
 import com.watabou.pixeldungeon.actors.buffs.Buff;
 
 import com.watabou.pixeldungeon.sprites.RatKingSprite;

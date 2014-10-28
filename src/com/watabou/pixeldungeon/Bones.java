@@ -30,7 +30,7 @@ import com.watabou.utils.Random;
 
 public class Bones {
 
-	private static final String BONES_FILE	= "watabou-bones.dat";
+	private static final String BONES_FILE	= "vanilla-bones.dat";
 	
 	private static final String LEVEL	= "level";
 	private static final String ITEM	= "item";

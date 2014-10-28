@@ -19,10 +19,10 @@ package com.watabou.pixeldungeon.windows;
 
 import java.util.ArrayList;
 
+import com.watabou.pixeldungeon.scenes.PixelScene;
 import com.watabou.noosa.BitmapText;
 import com.watabou.pixeldungeon.Challenges;
 import com.watabou.pixeldungeon.PixelDungeon;
-import com.watabou.pixeldungeon.scenes.PixelScene;
 import com.watabou.pixeldungeon.ui.CheckBox;
 import com.watabou.pixeldungeon.ui.Window;
 

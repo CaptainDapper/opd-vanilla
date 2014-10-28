@@ -19,6 +19,11 @@ package com.watabou.pixeldungeon.scenes;
 
 import java.util.HashMap;
 
+import com.watabou.pixeldungeon.scenes.InterlevelScene;
+import com.watabou.pixeldungeon.scenes.IntroScene;
+import com.watabou.pixeldungeon.scenes.PixelScene;
+import com.watabou.pixeldungeon.scenes.StartScene;
+import com.watabou.pixeldungeon.scenes.TitleScene;
 import com.watabou.noosa.BitmapText;
 import com.watabou.noosa.BitmapTextMultiline;
 import com.watabou.noosa.Camera;
