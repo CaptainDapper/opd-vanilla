@@ -22,7 +22,9 @@ import com.opd.openpixeldungeon.DefaultAssets;
 public class Assets extends DefaultAssets {
 	public static final String AVATARS	= "vanilla/avatars.png";
 	public static final String BADGES	= "vanilla/badges.png";
+	public static final String BANNERS	= "vanilla/banners.png";
 	public static final String BUFFS_SMALL	= "vanilla/buffs.png";
+	public static final String ICONS	= "vanilla/icons.png";
 	public static final String ITEMS	= "vanilla/items.png";
 	public static final String BUFFS_LARGE	= "vanilla/large_buffs.png";
 	public static final String STATUS	= "vanilla/status_pane.png";
