@@ -17,7 +17,7 @@
  */
 package com.watabou.pixeldungeon;
 
-import com.opd.noosa.OPDGame;
+import com.opd.opdlib.OPDGame;
 import com.watabou.pixeldungeon.scenes.TitleScene;
 
 public class PixelDungeon extends OPDGame {

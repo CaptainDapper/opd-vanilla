@@ -17,12 +17,12 @@
  */
 package com.watabou.pixeldungeon.windows;
 
+import com.watabou.pixeldungeon.effects.BadgeBanner;
 import com.watabou.pixeldungeon.scenes.PixelScene;
 import com.watabou.noosa.BitmapText;
 import com.watabou.noosa.BitmapTextMultiline;
 import com.watabou.noosa.Image;
 import com.watabou.pixeldungeon.Badges;
-import com.watabou.pixeldungeon.effects.BadgeBanner;
 import com.watabou.pixeldungeon.ui.Window;
 
 public class WndBadge extends Window {

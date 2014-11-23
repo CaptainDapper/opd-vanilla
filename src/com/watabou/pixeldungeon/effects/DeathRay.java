@@ -25,6 +25,7 @@ import com.watabou.noosa.Game;
 import com.watabou.noosa.Image;
 import com.watabou.noosa.audio.Sample;
 import com.watabou.pixeldungeon.Assets;
+import com.watabou.pixeldungeon.effects.Effects;
 import com.watabou.utils.PointF;
 
 public class DeathRay extends Image {

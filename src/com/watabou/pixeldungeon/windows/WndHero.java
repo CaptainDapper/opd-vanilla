@@ -19,7 +19,7 @@ package com.watabou.pixeldungeon.windows;
 
 import java.util.Locale;
 
-import com.opd.noosa.OPDScene;
+import com.opd.opdlib.OPDScene;
 import com.watabou.pixeldungeon.scenes.GameScene;
 import com.watabou.pixeldungeon.scenes.PixelScene;
 import com.watabou.gltextures.SmartTexture;

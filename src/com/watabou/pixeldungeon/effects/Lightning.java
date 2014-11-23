@@ -27,6 +27,7 @@ import com.watabou.noosa.Image;
 import com.watabou.noosa.audio.Sample;
 import com.watabou.pixeldungeon.Assets;
 import com.watabou.pixeldungeon.DungeonTilemap;
+import com.watabou.pixeldungeon.effects.Effects;
 import com.watabou.pixeldungeon.levels.Level;
 import com.watabou.utils.Callback;
 import com.watabou.utils.Random;

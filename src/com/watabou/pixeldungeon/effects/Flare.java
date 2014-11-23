@@ -33,6 +33,7 @@ import com.watabou.gltextures.SmartTexture;
 import com.watabou.noosa.Game;
 import com.watabou.noosa.NoosaScript;
 import com.watabou.noosa.Visual;
+import com.watabou.pixeldungeon.effects.Flare;
 
 public class Flare extends Visual {
 	

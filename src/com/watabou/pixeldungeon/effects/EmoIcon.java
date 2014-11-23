@@ -17,6 +17,7 @@
  */
 package com.watabou.pixeldungeon.effects;
 
+import com.watabou.pixeldungeon.effects.EmoIcon;
 import com.watabou.pixeldungeon.scenes.GameScene;
 import com.watabou.noosa.Game;
 import com.watabou.noosa.Image;

@@ -21,6 +21,8 @@ import com.watabou.noosa.Game;
 import com.watabou.noosa.Gizmo;
 import com.watabou.noosa.audio.Sample;
 import com.watabou.pixeldungeon.Assets;
+import com.watabou.pixeldungeon.effects.IceBlock;
+import com.watabou.pixeldungeon.effects.Splash;
 import com.watabou.pixeldungeon.sprites.CharSprite;
 
 public class IceBlock extends Gizmo {

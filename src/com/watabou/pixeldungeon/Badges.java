@@ -26,6 +26,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 
+import com.opd.opdlib.OPDGame;
 import com.watabou.pixeldungeon.scenes.PixelScene;
 import com.watabou.noosa.Game;
 import com.watabou.pixeldungeon.actors.mobs.Acidic;
@@ -174,7 +175,7 @@ public class Badges {
 		loadGlobal();
 	}
 	
-	private static final String BADGES_FILE	= "vanilla-badges.dat";
+	private static final String BADGES_FILE	= "badges.dat";
 	private static final String BADGES		= "badges";
 	
 	private static HashSet<Badge> restore( Bundle bundle ) {
@@ -212,7 +213,7 @@ public class Badges {
 	public static void loadGlobal() {
 		if (global == null) {
 			try {
-				InputStream input = Game.instance.openFileInput( BADGES_FILE );
+				InputStream input = OPDGame.openDatInput( BADGES_FILE );
 				Bundle bundle = Bundle.read( input );
 				input.close();
 				
@@ -231,7 +232,7 @@ public class Badges {
 			store( bundle, global );
 			
 			try {
-				OutputStream output = Game.instance.openFileOutput( BADGES_FILE, Game.MODE_PRIVATE );
+				OutputStream output = OPDGame.openDatOutput( BADGES_FILE, Game.MODE_PRIVATE );
 				Bundle.write( bundle, output );
 				output.close();
 				saveNeeded = false;

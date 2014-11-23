@@ -22,6 +22,7 @@ import com.watabou.noosa.Group;
 import com.watabou.noosa.particles.Emitter;
 import com.watabou.noosa.particles.PixelParticle;
 import com.watabou.pixeldungeon.DungeonTilemap;
+import com.watabou.pixeldungeon.effects.MagicMissile;
 import com.watabou.pixeldungeon.effects.particles.FlameParticle;
 import com.watabou.pixeldungeon.effects.particles.LeafParticle;
 import com.watabou.pixeldungeon.effects.particles.PoisonParticle;

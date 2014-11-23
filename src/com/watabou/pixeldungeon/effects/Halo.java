@@ -24,6 +24,7 @@ import android.graphics.Paint;
 import com.watabou.gltextures.SmartTexture;
 import com.watabou.gltextures.TextureCache;
 import com.watabou.noosa.Image;
+import com.watabou.pixeldungeon.effects.Halo;
 
 public class Halo extends Image {
 	

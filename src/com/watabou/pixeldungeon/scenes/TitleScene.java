@@ -17,6 +17,8 @@
  */
 package com.watabou.pixeldungeon.scenes;
 
+import com.watabou.pixeldungeon.effects.BannerSprites;
+import com.watabou.pixeldungeon.effects.Fireball;
 import com.watabou.pixeldungeon.scenes.AboutScene;
 import com.watabou.pixeldungeon.scenes.BadgesScene;
 import com.watabou.pixeldungeon.scenes.PixelScene;
@@ -30,8 +32,6 @@ import com.watabou.noosa.audio.Sample;
 import com.watabou.noosa.ui.Button;
 import com.watabou.pixeldungeon.Assets;
 import com.watabou.pixeldungeon.PixelDungeon;
-import com.watabou.pixeldungeon.effects.BannerSprites;
-import com.watabou.pixeldungeon.effects.Fireball;
 import com.watabou.pixeldungeon.ui.Archs;
 import com.watabou.pixeldungeon.ui.ExitButton;
 import com.watabou.pixeldungeon.ui.PrefsButton;

@@ -20,6 +20,7 @@ package com.watabou.pixeldungeon.effects;
 import java.util.HashMap;
 
 import com.watabou.pixeldungeon.actors.Char;
+import com.watabou.pixeldungeon.effects.SpellSprite;
 import com.watabou.pixeldungeon.scenes.GameScene;
 import com.watabou.noosa.Game;
 import com.watabou.noosa.Image;

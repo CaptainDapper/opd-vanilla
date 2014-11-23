@@ -26,6 +26,7 @@ import com.watabou.noosa.Image;
 import com.watabou.noosa.TextureFilm;
 import com.watabou.noosa.particles.Emitter;
 import com.watabou.pixeldungeon.Assets;
+import com.watabou.pixeldungeon.effects.Speck;
 import com.watabou.utils.PointF;
 import com.watabou.utils.Random;
 

@@ -19,6 +19,7 @@ package com.watabou.pixeldungeon.effects;
 
 import java.util.ArrayList;
 
+import com.watabou.pixeldungeon.effects.FloatingText;
 import com.watabou.pixeldungeon.scenes.GameScene;
 import com.watabou.pixeldungeon.scenes.PixelScene;
 import com.watabou.noosa.BitmapText;

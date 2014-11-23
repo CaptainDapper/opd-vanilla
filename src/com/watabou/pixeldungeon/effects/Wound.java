@@ -18,6 +18,8 @@
 package com.watabou.pixeldungeon.effects;
 
 import com.watabou.pixeldungeon.actors.Char;
+import com.watabou.pixeldungeon.effects.Effects;
+import com.watabou.pixeldungeon.effects.Wound;
 import com.watabou.noosa.Game;
 import com.watabou.noosa.Group;
 import com.watabou.noosa.Image;

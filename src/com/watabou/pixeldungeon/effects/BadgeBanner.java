@@ -17,6 +17,8 @@
  */
 package com.watabou.pixeldungeon.effects;
 
+import com.watabou.pixeldungeon.effects.BadgeBanner;
+import com.watabou.pixeldungeon.effects.Speck;
 import com.watabou.noosa.Game;
 import com.watabou.noosa.Image;
 import com.watabou.noosa.TextureFilm;

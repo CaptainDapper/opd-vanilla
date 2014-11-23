@@ -20,6 +20,7 @@ package com.watabou.pixeldungeon.effects;
 import com.watabou.noosa.Game;
 import com.watabou.noosa.Image;
 import com.watabou.pixeldungeon.DungeonTilemap;
+import com.watabou.pixeldungeon.effects.Effects;
 import com.watabou.pixeldungeon.levels.Level;
 
 public class Ripple extends Image {

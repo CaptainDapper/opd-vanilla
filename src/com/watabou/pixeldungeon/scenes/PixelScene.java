@@ -17,13 +17,13 @@
  */
 package com.watabou.pixeldungeon.scenes;
 
-import com.opd.noosa.OPDScene;
+import com.opd.opdlib.OPDScene;
+import com.watabou.pixeldungeon.effects.BadgeBanner;
 import com.watabou.pixeldungeon.scenes.GameScene;
 import com.watabou.noosa.audio.Sample;
 import com.watabou.noosa.Game;
 import com.watabou.pixeldungeon.Assets;
 import com.watabou.pixeldungeon.Badges;
-import com.watabou.pixeldungeon.effects.BadgeBanner;
 
 public class PixelScene extends OPDScene {	
 	@Override
