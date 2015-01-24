@@ -19,6 +19,7 @@ package com.watabou.pixeldungeon.windows;
 
 import java.io.IOException;
 
+import com.opd.opdlib.OPDGame;
 import com.watabou.pixeldungeon.scenes.GameScene;
 import com.watabou.pixeldungeon.scenes.InterlevelScene;
 import com.watabou.pixeldungeon.scenes.RankingsScene;
@@ -107,7 +108,12 @@ public class WndGame extends Window {
 		addButton( new RedButton( TXT_EXIT ) {
 			@Override
 			protected void onClick() {
-				Game.instance.finish();
+				try {
+					Dungeon.saveAll();
+				} catch (IOException e) {
+					//
+				}
+				OPDGame.quitSubGame();
 			}
 		} );
 		
