@@ -24,6 +24,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
+import com.opd.opdlib.OPDGame;
 import com.watabou.noosa.Game;
 import com.watabou.pixeldungeon.actors.hero.HeroClass;
 import com.watabou.pixeldungeon.utils.Utils;
@@ -81,7 +82,7 @@ public enum Rankings {
 			}
 			
 			if (removedGame.gameFile.length() > 0) {
-				Game.instance.deleteFile( removedGame.gameFile );
+				OPDGame.deleteDatFile( removedGame.gameFile );
 			}
 		}
 		
@@ -107,7 +108,7 @@ public enum Rankings {
 		bundle.put( TOTAL, totalNumber );
 		
 		try {
-			OutputStream output = Game.instance.openFileOutput( RANKINGS_FILE, Game.MODE_PRIVATE );
+			OutputStream output = OPDGame.openDatOutput( RANKINGS_FILE, Game.MODE_PRIVATE );
 			Bundle.write( bundle, output );
 			output.close();
 		} catch (Exception e) {
@@ -123,7 +124,7 @@ public enum Rankings {
 		records = new ArrayList<Rankings.Record>();
 		
 		try {
-			InputStream input = Game.instance.openFileInput( RANKINGS_FILE );
+			InputStream input = OPDGame.openDatInput( RANKINGS_FILE );
 			Bundle bundle = Bundle.read( input );
 			input.close();
 			
